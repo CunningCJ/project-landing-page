@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.header, .content1, .footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.headlinks {
+    display: flex;
+    gap: 20px;
+    padding-right: 10px;
+}
+.content1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.textwbutt {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text1 {
+    font-size: 38px;
+    font-weight: 800;
+    color: #f9faf8;
+    width: 600px;
+}
+
+
+.text2 {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    width: 500px;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none; 
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.text3 {
+    text-align: center;
+    color: #1f2937;
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    border-radius: 8px; 
+    border: 0px;
+}
+
+.content2 {
+    padding: 50px;
+}
+.content3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    padding: 50px;
+}
+
+.quote1 {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.info4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 150px;
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.box {
+    background-color: #3882f6;
+    width: 600px;
+    border-radius: 8px;
+    color: #e5e7eb;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content4 {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.signup1 {
+    border: 2px solid #f9faf8;
+
+}
